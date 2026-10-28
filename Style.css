@@ -1,0 +1,20 @@
+CSS   
+ Body {  
+    Font-family: Arial;  
+    Background-color: lightblue;  
+    Text-align: center;  
+}  
+  
+H1 {  
+    Color: darkblue;  
+}  
+  
+Input {  
+    Padding: 10px;  
+}  
+  
+Button {  
+    Background-color: green;  
+    Color: white;  
+    Padding: 10px;  
+}
