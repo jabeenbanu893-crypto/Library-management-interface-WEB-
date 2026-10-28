@@ -1,0 +1,22 @@
+
+JavaScript   
+ Let books = [  
+    “Python”,     
+“Java”,  
+    “HTML”,  
+    “CSS”  
+];  
+  
+Function searchBook() {  
+  
+    Let search = document  
+    .getElementById(“search”)  
+    .value.toLowerCase();  
+  
+    Let result = books.filter(book =>  
+        Book.toLowerCase().includes(search)  
+    );  
+  
+    Document.getElementById(“bookList”)  
+    .innerHTML = result.join(“<br>”);  
+}  
